@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "types": [
+      "jest", "jest-playwright-preset", "expect-playwright"
+    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "strict": true,
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "noEmit": true
+  },
+  "include": [
+    "./tests"
+  ]
+}
